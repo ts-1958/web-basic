@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Report</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Server Status Report</h1>
+    <select id="filterSelect">
+        <option value="all">All Servers</option>
+        <option value="offline">Offline Servers</option>
+        <option value="highCpu">High CPU Usage</option>
+    </select>
+</header>
+<table id="serverTable">
+    <thead>
+    <tr>
+        <th>Server Name</th>
+        <th>IP Address</th>
+        <th>Status</th>
+        <th>Location</th>
+        <th>Memory Usage</th>
+        <th>CPU Usage</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Server data will go here -->
+    </tbody>
+</table>
+<script src="js/main.js"></script>
+</body>
+</html>
